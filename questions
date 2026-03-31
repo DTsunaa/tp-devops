@@ -1,0 +1,7 @@
+1) La version la plus rapide est la v1.0 avec un requests/sec: 450 et un average: 0.020s
+
+2)La version la plus lente est la v1.2, requests/sec: 80 et average: 0.120s
+
+3) La v1.2 est lente car elle a un time.sleep(0.1) avec une attente de 100ms forcée pour cahque requête
+
+4) La v1.0 est une bonne version à déployer car elle est rapide fiable et son rollback est simple 
